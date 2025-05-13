@@ -1,0 +1,77 @@
+.search-bar img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-left: 3px;
+    cursor: pointer;
+    background: white;
+    padding: 5px;
+  }
+  
+
+.weather{
+    place-self: center;
+    padding: 40px;
+    border-radius: 10px;
+    background-image: linear-gradient(45deg,#2f4680,#500ae4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}  
+.search-bar{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+}
+.search-bar input{
+    height: 50px;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    padding-left: 25px;
+    color: #626262;
+    background: #ebfffc;
+    font-size: 16px;
+}
+
+.weather-icon{
+    width: 150px;
+    margin: 30px 0;
+}
+.temperature{
+    color: #fff;
+    font-size: 80px;
+    line-height: 1;
+}
+.location{
+    color: #fff;
+    font-size: 40px;
+}
+.weather-data {
+    width: 100%;
+    margin-top: 40px;
+    color: #fff;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap; /* responsive ke liye */
+  }
+  
+  .weather-data .col {
+    display: flex;
+    align-items: center;  /* vertical center */
+    gap: 15px;            /* spacing between icon and text */
+    font-size: 22px;
+  }
+  
+  .weather-data .col span {
+    font-size: 16px;
+    line-height: 1.4;
+  }
+  
+  .weather-data .col img {
+    width: 40px;
+    height: 40px;         /* maintain ratio */
+    object-fit: contain;
+  }
+  
